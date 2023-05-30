@@ -33,18 +33,20 @@ By completing this project, you should be able to explain the following concepts
 
 ## Resources
 
-- [Object Oriented Programming](https://www.learnpython.org/en/Object_Oriented_Programming) (Read everything until the paragraph “Inheritance” excluded. You do NOT have to learn about class attributes, classmethod and staticmethod yet)
-- [Object-Oriented Programming](https://docs.python.org/3/tutorial/classes.html) (Please *be careful*: in most of the following paragraphs, the author shows things the way you should not use or write a class in order to help you better understand some concepts and how everything works in Python 3. Make sure you read everything in the following paragraphs: General Introduction, First-class Everything, A Minimal Class in Python, Attributes (You DON’T have to learn about class attributes), Methods, The __init__ Method, “Data Abstraction, Data Encapsulation, and Information Hiding,” “Public, Protected, and Private Attributes”)
-- [Properties vs. Getters and Setters](https://www.python-course.eu/python3_properties.php)
-- [Learn to Program 9 : Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE)
-- [Python Classes and Objects](https://www.programiz.com/python-programming/class)
+### Object Oriented Programming
+- [Learn Python - Object Oriented Programming](https://www.learnpython.org/en/Object_Oriented_Programming) (Read everything until the paragraph “Inheritance” excluded. You do NOT have to learn about class attributes, classmethod and staticmethod yet)
+- [Python Documentation - Object-Oriented Programming](https://docs.python.org/3/tutorial/classes.html) (Please *be careful*: in most of the following paragraphs, the author shows things the way you should not use or write a class in order to help you better understand some concepts and how everything works in Python 3. Make sure you read everything in the following paragraphs: General Introduction, First-class Everything, A Minimal Class in Python, Attributes (You DON’T have to learn about class attributes), Methods, The __init__ Method, “Data Abstraction, Data Encapsulation, and Information Hiding,” “Public, Protected, and Private Attributes”)
+- [Python Course - Properties vs. Getters and Setters](https://www.python-course.eu/python3_properties.php)
+- [YouTube - Learn to Program 9: Object Oriented Programming](https://www.youtube.com/watch?v=1AGyBuVCTeE)
+- [Programiz - Python Classes and Objects](https://www.programiz.com/python-programming/class)
+
+### Additional Resources
 - [Object Oriented Programming](https://intranet.alxswe.com/rltoken/i49z6HxrBGRNnixo7ZWbEQ) (Read everything until the paragraph “Inheritance” excluded. You do NOT have to learn about class attributes, classmethod and staticmethod yet)
 - [Object-Oriented Programming](https://intranet.alxswe.com/rltoken/qz3KSn154ia4H2DPaabOzg) (Please *be careful*: in most of the following paragraphs, the author shows things the way you should not use or write a class in order to help you better understand some concepts and how everything works in Python 3. Make sure you read everything in the following paragraphs: General Introduction, First-class Everything, A Minimal Class in Python, Attributes (You DON’T have to learn about class attributes), Methods, The __init__ Method, “Data Abstraction, Data Encapsulation, and Information Hiding,” “Public, Protected, and Private Attributes”)
 - [Properties vs. Getters and Setters](https://intranet.alxswe.com/rltoken/Wy2djWXK5b4rnnYlAq_wlA)
 - [Learn to Program 9 : Object Oriented Programming](https://intranet.alxswe.com/rltoken/MxIOanLf5vG5QeCWek2nqQ)
 - [Python Classes and Objects](https://intranet.alxswe.com/rltoken/AoLH4xp5StrQST-Cu0Fg8w)
 - [Object Oriented Programming](https://intranet.alxswe.com/rltoken/-vVnWzwR3a3X0H8Oia78Ug)
-
 
 ## Requirements
 

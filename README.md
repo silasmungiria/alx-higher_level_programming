@@ -22,7 +22,14 @@
 
  <ol align="left">
 	<li>0x00-<a href="https://github.com/Mugambi12/alx-high_level_programming/tree/master/0x00-python-hello_world"> Python - Hello, World</a></li>
-	<li>0x01-<a href="https://github.com/Mugambi12/alx-high_level_programming/tree/master/0x01-variables_if_else_while"> C - variables_if_else_while</a></li>
+	<li>0x01-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x01-python-if_else_loops_functions"> Python-if_else_loops_functions</a></li>
+	<li>0x02-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x02-python-import_modules"> Python-import_modules</a></li>
+	<li>0x03-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x03-python-data_structures"> Python-data_structures</a></li>
+	<li>0x04-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x04-python-more_data_structures"> Python-more_data_structures</a></li>
+	<li>0x05-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x05-python-exceptions"> Python-exceptions</a></li>
+	<li>0x06-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x06-python-classes"> Python-classes</a></li>
+	<li>0x07-<a href="https://github.com/Mugambi12/alx-high_level_programming"> Python</a></li>
+</ol>
 
 </div>
 

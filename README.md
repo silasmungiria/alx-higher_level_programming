@@ -29,7 +29,7 @@
 	<li>0x05-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x05-python-exceptions"> Python-exceptions</a></li>
 	<li>0x06-<a href="https://github.com/Mugambi12/alx-higher_level_programming/tree/main/0x06-python-classes"> Python-classes</a></li>
 	<li>0x07-<a href="https://github.com/Mugambi12/alx-high_level_programming"> Python</a></li>
-</ol>
+ </ol>
 
 </div>
 

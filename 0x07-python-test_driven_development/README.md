@@ -97,5 +97,3 @@ Create a function that prints Python strings.
 ---
 
 *For more detailed information, you can check the [project repository on GitHub](https://github.com/mugambi12/alx-higher_level_programming/tree/main/0x07-python-test_driven_development).*
-
-[Test-driven development]: Implementation of Tasks and Unit Testing

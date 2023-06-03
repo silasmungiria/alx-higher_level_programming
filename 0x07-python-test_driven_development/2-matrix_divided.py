@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Defines a matrix division function."""
 
-
 def matrix_divided(matrix, div):
     """Divide all elements of a matrix.
 

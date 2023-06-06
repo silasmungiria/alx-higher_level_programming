@@ -37,15 +37,15 @@ Below is a list of files in this repository, along with a description of each:
 | 102-square.py         | Implements __str__ method and 'my_print' method for the Square class. |
 | 103-magic_class.py    | Defines a MagicClass class with attributes and methods corresponding to a given bytecode. |
 | 0-main.py             | Main file to test the functionality of the Rectangle class. |
-| 4-main.py             | Main file to test the functionality of the Rectangle class with class attributes. |
-| 5-main.py             | Main file to test the functionality of the Rectangle class with class and static methods. |
-| 6-main.py             | Main file to test the validation of the 'width' and 'height' attributes in the Rectangle class. |
-| 7-main.py             | Main file to test the functionality of the Rectangle class with getters and setters. |
-| 8-main.py             | Main file to test the 'area' method of the Rectangle class. |
-| 9-main.py             | Main file to test the 'perimeter' method of the Rectangle class. |
-| 10-main.py            | Main file to test the functionality of the Square class. |
-| 11-main.py            | Main file to test the validation of the 'size' attribute in the Square class. |
-| 100-main.py           | Main file to test the functionality of the SinglyLinkedList class. |
+| 1-main.py             | Main file to test the functionality of the Rectangle class with class attributes. |
+| 2-main.py             | Main file to test the functionality of the Rectangle class with class and static methods. |
+| 3-main.py             | Main file to test the validation of the 'width' and 'height' attributes in the Rectangle class. |
+| 4-main.py             | Main file to test the functionality of the Rectangle class with getters and setters. |
+| 5-main.py             | Main file to test the 'area' method of the Rectangle class. |
+| 6-main.py             | Main file to test the 'perimeter' method of the Rectangle class. |
+| 7-main.py            | Main file to test the functionality of the Square class. |
+| 8-main.py            | Main file to test the validation of the 'size' attribute in the Square class. |
+| 9-main.py           | Main file to test the functionality of the SinglyLinkedList class. |
 | 101-nqueens.py        | Program that solves the N queens problem. |
 | tests                | Folder containing unit tests for all the programs and scripts. |
 

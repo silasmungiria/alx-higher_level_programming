@@ -42,7 +42,7 @@ Below is a list of files in this repository, along with a description of each:
 | 8-main.py            | Main file to test the validation of the 'size' attribute in the Square class. |
 | 9-main.py           | Main file to test the functionality of the SinglyLinkedList class. |
 | 101-nqueens.py        | Program that solves the N queens problem. |
-| tests                | Folder containing unit tests for all the programs and scripts. |
+| __pycache__                | Contains the compiled bytecode files that are specific to the version of Python being used |
 
 ### Usage
 To run the scripts, you can use the following command:

@@ -56,5 +56,3 @@ To run the scripts, you can use the following command:
   ./<filename.py>
 ```
 Replace <filename.py> with the name of the script you want to execute.
-
-0-main.py 4-main.py 5-main.py 6-main.py 7-main.py 8-main.py 9-main.py 10-main.py 11-main.py 100-main.py

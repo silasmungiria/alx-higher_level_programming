@@ -30,12 +30,7 @@ Below is a list of files in this repository, along with a description of each:
 | 7-rectangle.py        | Refactors the Rectangle class to use getters and setters for 'width' and 'height'. |
 | 8-rectangle.py        | Adds an 'area' method to the Rectangle class. |
 | 9-rectangle.py        | Adds a 'perimeter' method to the Rectangle class. |
-| 10-square.py          | Defines a Square class as a subclass of Rectangle. |
-| 11-square.py          | Adds 'size' attribute validation to the Square class. |
-| 100-singly_linked_list.py   | Defines a Node class and a SinglyLinkedList class to implement a singly linked list. |
-| 101-square.py         | Adds a 'position' attribute and its validation to the Square class. |
-| 102-square.py         | Implements __str__ method and 'my_print' method for the Square class. |
-| 103-magic_class.py    | Defines a MagicClass class with attributes and methods corresponding to a given bytecode. |
+| 101-nqueens.py        | The script provides a complete implementation of solving the N-queens puzzle for a given value of N. |
 | 0-main.py             | Main file to test the functionality of the Rectangle class. |
 | 1-main.py             | Main file to test the functionality of the Rectangle class with class attributes. |
 | 2-main.py             | Main file to test the functionality of the Rectangle class with class and static methods. |

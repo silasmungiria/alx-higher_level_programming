@@ -144,5 +144,5 @@ Note: Replace `file.sql` with the name of the SQL script you want to execute.
 
 ## Author
 
-- Guillaume, Software Engineer at ALX
+- Silas Mugambi, Software Engineering student at ALX
 

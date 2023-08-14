@@ -2,7 +2,7 @@
 
 // This line specifies the path to the interpreter for the script.
 
-function add(a, b) {
+function add (a, b) {
   // This line defines a function named "add" that takes two,
   // parameters "a" and "b".
   const c = a + b;

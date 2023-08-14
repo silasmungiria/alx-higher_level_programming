@@ -2,7 +2,7 @@
 
 // This line specifies the path to the interpreter for the script.
 
-function factorial(n) {
+function factorial (n) {
   // This line defines a recursive function named "factorial" that calculates,
   // the factorial of a given number "n".
 

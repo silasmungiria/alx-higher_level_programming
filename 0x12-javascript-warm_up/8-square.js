@@ -3,27 +3,15 @@
 // This line specifies the path to the interpreter for the script.
 
 if (process.argv[2] === undefined || isNaN(process.argv[2])) {
-  // This block of code checks if the command-line argument is
-  // undefined or not a number.
-  // If either condition is true, it outputs 'Missing size' to the console.
+  console.log('Missing size');
+  // If the command-line argument is undefined or not a number, print 'Missing size'.
 } else {
-  // If the conditions in the "if" statement are not met,
-  // this block of code executes.
+  const size = parseInt(process.argv[2]);
+  // Convert the command-line argument to an integer and assign it to the "size" variable.
 
-  const x = Number(process.argv[2]);
-  // This line converts the command-line argument to a number and
-  // assigns it to the variable "x".
-
-  let i = 0;
-  // This line initializes a variable "i" to 0, which will be used as a counter.
-
-  while (i < x) {
-    // This loop will continue as long as the value of "i" is less than
-    // the value of "x".
-    console.log('X'.repeat(x));
-    // This line outputs a string consisting of 'X' repeated "x" times to
-    // the console.
-    i++;
-    // This line increments the value of "i" by 1 in each iteration.
+  for (let i = 0; i < size; i++) {
+    // Loop through rows based on the "size".
+    console.log('X'.repeat(size));
+    // Print a line consisting of 'X' repeated "size" times for each row.
   }
 }

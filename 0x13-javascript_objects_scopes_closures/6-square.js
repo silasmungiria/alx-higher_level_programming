@@ -2,12 +2,12 @@
 
 // This line specifies the path to the interpreter for the script.
 
-const SquareP = require('./5-square');
-// Import the SquareP class from the './5-square' module.
+const SquareE = require('./5-square');
+// Import the SquareE class from the './5-square' module.
 
-class Square extends SquareP {
+class Square extends SquareE {
   constructor (size) {
-    // This is the constructor of the Square class, which extends the SquareP class.
+    // This is the constructor of the Square class, which extends the SquareE class.
     // It initializes the Square with the given "size" by passing it to the parent class constructor.
     super(size);
   }

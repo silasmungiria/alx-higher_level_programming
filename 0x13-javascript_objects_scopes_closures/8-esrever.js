@@ -2,7 +2,7 @@
 
 // This line specifies the path to the interpreter for the script.
 
-exports.esrever = function(list) {
+exports.esrever = function (list) {
   // This function reverses the elements in the given "list".
 
   let len = list.length - 1;

@@ -2,7 +2,7 @@
 
 // This line specifies the path to the interpreter for the script.
 
-exports.nbOccurences = function(list, searchElement) {
+exports.nbOccurences = function (list, searchElement) {
   // This function calculates the number of occurrences of "searchElement" in the given "list".
 
   let nOccurrences = 0;

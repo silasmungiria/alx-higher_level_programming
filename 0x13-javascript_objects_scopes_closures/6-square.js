@@ -6,13 +6,13 @@ const SquareP = require('./5-square');
 // Import the SquareP class from the './5-square' module.
 
 class Square extends SquareP {
-  constructor(size) {
+  constructor (size) {
     // This is the constructor of the Square class, which extends the SquareP class.
     // It initializes the Square with the given "size" by passing it to the parent class constructor.
     super(size);
   }
 
-  charPrint(c) {
+  charPrint (c) {
     // This method prints a representation of the square using the specified character 'c'.
     // If 'c' is undefined, it defaults to 'X'.
     if (c === undefined) {

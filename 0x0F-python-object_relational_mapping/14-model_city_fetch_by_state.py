@@ -28,6 +28,6 @@ if __name__ == "__main__":
     # Query and print State names and associated City details
     for instance in session.query(
         State.name, City.id, City.name
-        ).filter(State.id == City.state_id):
+    ).filter(State.id == City.state_id):
         state_name, city_id, city_name = instance
         print(f"{state_name}: ({city_id}) {city_name}")

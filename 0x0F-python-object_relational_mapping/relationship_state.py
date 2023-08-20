@@ -10,6 +10,7 @@ from sqlalchemy.orm import relationship
 mymetadata = MetaData()
 Base = declarative_base(metadata=mymetadata)
 
+
 class State(Base):
     """
     Class representing each state with id, name, and cities relationship.

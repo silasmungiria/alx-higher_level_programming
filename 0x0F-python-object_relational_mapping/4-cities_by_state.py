@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Lists all states from the 'hbtn_0e_0_usa' database.
+Lists all cities and their corresponding states from the 'hbtn_0e_0_usa' database.
 """
 import MySQLdb
 import sys
 
 if __name__ == "__main__":
-    # Connect to the database
+    # Establish a database connection
     db = MySQLdb.connect(
         host="localhost",
         user=sys.argv[1],
@@ -20,10 +20,9 @@ if __name__ == "__main__":
 
     # Execute the query
     query = """
-    SELECT *
-    FROM states
-    WHERE name LIKE BINARY 'N%'
-    ORDER BY states.id
+    SELECT cities.id, cities.name, states.name
+    FROM cities
+    INNER JOIN states ON states.id = cities.state_id
     """
     cur.execute(query)
 

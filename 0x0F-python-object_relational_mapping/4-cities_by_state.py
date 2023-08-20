@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Lists all cities and their corresponding states from the 'hbtn_0e_0_usa' database.
+Lists all cities and their corresponding states,
+from the 'hbtn_0e_0_usa' database.
 """
 import MySQLdb
 import sys

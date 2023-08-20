@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Lists all states from the 'hbtn_0e_0_usa' database that match a provided name pattern.
+Lists all states from the 'hbtn_0e_0_usa' database,
+that match a provided name pattern.
 """
 import MySQLdb
 import sys

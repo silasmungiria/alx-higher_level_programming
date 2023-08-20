@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Lists the names of cities in a specified state from the 'hbtn_0e_0_usa' database.
+Lists the names of cities in a specified state from,
+the 'hbtn_0e_0_usa' database.
 """
 import MySQLdb
 import sys

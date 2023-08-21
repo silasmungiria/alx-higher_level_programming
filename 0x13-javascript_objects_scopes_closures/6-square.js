@@ -1,32 +1,27 @@
 #!/usr/bin/node
 
-// This line specifies the path to the interpreter for the script.
-
 const SquareE = require('./5-square');
-// Import the SquareE class from the './5-square' module.
 
 class Square extends SquareE {
-  constructor (size) {
-    // This is the constructor of the Square class, which extends the SquareE class.
-    // It initializes the Square with the given "size" by passing it to the parent class constructor.
-    super(size);
-  }
-
+  // Class method to print the square with a specified character
   charPrint (c) {
-    // This method prints a representation of the square using the specified character 'c'.
-    // If 'c' is undefined, it defaults to 'X'.
+    // If character 'c' is undefined, set it to 'X'
     if (c === undefined) {
       c = 'X';
     }
+    // Loop through each row of the square's height
     for (let i = 0; i < this.height; i++) {
       let s = '';
+      // Loop through each column of the square's width
       for (let j = 0; j < this.width; j++) {
+        // Add the character 'c' to the current row
         s += c;
       }
+      // Print the row
       console.log(s);
     }
   }
 }
 
+// Export the Square class for use in other modules
 module.exports = Square;
-// Export the Square class for use in other modules.

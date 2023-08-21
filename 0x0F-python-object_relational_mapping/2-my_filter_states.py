@@ -21,9 +21,9 @@ if __name__ == "__main__":
 
     # Execute the query
     name_pattern = sys.argv[4]
-    query = """
-    "SELECT * FROM states WHERE name LIKE BINARY '{}'".format(name_pattern)"
-    """
+    query = (
+        "SELECT * FROM states WHERE name LIKE BINARY '{}'".format(name_pattern)
+    )
     cur.execute(query)
 
     # Fetch and display results

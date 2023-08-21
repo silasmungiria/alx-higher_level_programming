@@ -28,7 +28,8 @@ if __name__ == "__main__":
     # Query and print City objects associated with each State
     for state_instance in session.query(State).order_by(State.id):
         for city_instance in state_instance.cities:
-            city_info = """
-          f"{city_instance.id}: {city_instance.name} -> {state_instance.name}"
-          """
+            city_info = (
+                f"{city_instance.id}: {city_instance.name} -> "
+                f"{state_instance.name}"
+            )
             print(city_info)

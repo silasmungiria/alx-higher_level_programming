@@ -11,14 +11,8 @@ import sys
 import urllib.request
 
 if __name__ == "__main__":
-    # Get the URL from the command-line argument
     url = sys.argv[1]
 
-    # Create an HTTP request object for the provided URL
     request = urllib.request.Request(url)
-
-    # Send the HTTP request and open the response
     with urllib.request.urlopen(request) as response:
-        # Extract and print the 'X-Request-Id' from the response header
-        x_request_id = dict(response.headers).get("X-Request-Id")
-        print(f"X-Request-Id: {x_request_id}")
+        print(dict(response.headers).get("X-Request-Id"))

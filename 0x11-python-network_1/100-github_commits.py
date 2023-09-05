@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This Python script lists the 10 most recent commits on a specified GitHub repository.
+This Python script lists the 10 most recent commits on a specified GitHub,
+ repository.
  - Construct the GitHub API URL for retrieving commits
  - Send an HTTP GET request to the GitHub API
  - Parse the JSON response into a list of commits

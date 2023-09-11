@@ -1,17 +1,24 @@
 #!/usr/bin/python3
 """
-A Python script that retrieves and displays the 'X-Request-Id' header variable
-from an HTTP GET request to a specified URL.
- - Get the URL from the command-line argument
- - Send an HTTP GET request to the specified URL
- - Retrieve and print the 'X-Request-Id' header value
+Displays the value of the X-Request-Id variable
+found in the header of the response
 """
 
 import requests
-import sys
+from sys import argv
 
-if __name__ == "__main__":
-    url = sys.argv[1]
+
+def main(argv):
+    """
+    Method that takes in a URL, sends a request to the URL
+    and displays the value of the X-Request-Id variable
+    found in the header of the response
+    """
+    url = argv[1]
     response = requests.get(url)
     x_request_id = response.headers.get('X-Request-Id')
     print(x_request_id)
+
+
+if __name__ == "__main__":
+    main(argv)

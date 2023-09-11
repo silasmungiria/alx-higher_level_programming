@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-A Python script that performs the following tasks:
-- Sends an HTTP GET request to the URL https://intranet.hbtn.io/status.
+- Sends an HTTP GET request to the URL.
 - Uses the 'requests' library for making the request.
 - Prints information about the response received.
 """
@@ -9,7 +8,9 @@ A Python script that performs the following tasks:
 import requests
 
 if __name__ == "__main__":
-    r = requests.get("https://intranet.hbtn.io/status")
+    url = "https://alx-intranet.hbtn.io/status"
+    response = requests.get(url)
+
     print("Body response:")
-    print("\t- type: {}".format(type(r.text)))
-    print("\t- content: {}".format(r.text))
+    print(f"    - type: {type(response.text)}")
+    print(f"    - content: {response.text}")

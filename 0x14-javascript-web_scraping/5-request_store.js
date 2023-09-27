@@ -1,19 +1,12 @@
 #!/usr/bin/node
 
+// Importing required modules
 const fs = require('fs');
 const request = require('request');
 
-const url = process.argv[2];
-const filePath = process.argv[3];
+// Using command line arguments to fetch the source URL and destination file path
+const sourceURL = process.argv[2];
+const destinationFilePath = process.argv[3];
 
-const writeStream = fs.createWriteStream(filePath);
-
-request(url).pipe(writeStream);
-
-writeStream.on('finish', () => {
-  console.log('The file has been saved!');
-});
-
-writeStream.on('error', (err) => {
-  console.error(err);
-});
+// Making a request to the source URL and piping the response to a writable stream
+request(sourceURL).pipe(fs.createWriteStream(destinationFilePath));
